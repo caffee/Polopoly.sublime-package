@@ -1,0 +1,5 @@
+#!/bin/bash
+
+zip -r Polopoly Snippets dot_content_completions.py LICENSE README.rst
+mv Polopoly.zip Polopoly.sublime-package
+

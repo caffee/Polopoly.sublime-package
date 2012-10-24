@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[#link({"path": \$${1:path}, 
+       "contentId": \$${2:contentId}, 
+       'htmlEncodeLink': 'true', 
+       ${3:"requestAttribs": \{"localLinksEnabled": "false"\},}
+       ${4:"contentParams": \{\$${5:contentId} : \{"category":\$${6:categoryId}, "dimension":\$${7:dimensionId}, "":""\}, "":"" \},}
+       "":""})
+]]></content>
+    <tabTrigger>link</tabTrigger>
+    <scope>source.vm</scope>
+    <description>#link(complex)</description>
+</snippet>

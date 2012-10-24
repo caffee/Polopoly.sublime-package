@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[#link({"path": \$${1:path}, "contentId": \$${2:contentId}, 'htmlEncodeLink': 'true', "":""})]]></content>
+    <tabTrigger>link</tabTrigger>
+    <scope>source.vm</scope>
+    <description>#link(pathAndContentId)</description>
+</snippet>

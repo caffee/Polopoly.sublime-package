@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[#imageresource({"contentId": \$${1:contentId},
+                "derivative": "${2:landscape_490}",
+                "alt": ${3:""},
+                "": ""})
+]]></content>
+    <tabTrigger>imageresource</tabTrigger>
+    <scope>source.vm</scope>
+    <description>#imageresource</description>
+</snippet>

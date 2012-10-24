@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[#render({"contentId": \$${1:contentId}, ${2:"params": \{"mode": "link", "":""\}, }"":""})]]></content>
+    <tabTrigger>render</tabTrigger>
+    <scope>source.vm</scope>
+    <description>#render(contentId)</description>
+</snippet>
