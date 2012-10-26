@@ -15,7 +15,8 @@ About
 This package include:
 
 - **OutputTemplate** - p.velocity directives snippets
-- **.Content** - syntax highlighting and auto completions 
+- **.Content** - syntax highlighting and auto completions
+- **p. fields & layouts** - auto completions
 
 
 Note
