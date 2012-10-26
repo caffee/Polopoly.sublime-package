@@ -24,3 +24,9 @@ Note
 | syntax highlighting and directives snippets
 |
 | https://github.com/caffee/Velocity.sublime-package
+
+
+Screenshot
+----------
+.. image:: https://github.com/downloads/caffee/resources-repo/polopoly-sublime-package-vm.png
+.. image:: https://github.com/downloads/caffee/resources-repo/polopoly-sublime-package-content.png
