@@ -29,5 +29,5 @@ Note
 
 Screenshot
 ----------
-.. image:: https://github.com/downloads/caffee/resources-repo/polopoly-sublime-package-vm.png
-.. image:: https://github.com/downloads/caffee/resources-repo/polopoly-sublime-package-content.png
+.. image:: https://raw.github.com/caffee/resources-repo/master/polopoly-sublime-package-vm.png
+.. image:: https://raw.github.com/caffee/resources-repo/master/polopoly-sublime-package-content.png
