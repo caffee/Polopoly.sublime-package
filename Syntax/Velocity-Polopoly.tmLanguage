@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fileTypes</key>
+    <array>
+        <string>vm</string>
+    </array>
+    <key>name</key>
+    <string>Velocity (Polopoly)</string>
+    <key>patterns</key>
+    <array>
+        <!-- Polopoly directives -->
+        <dict>
+            <key>directives.polopoly</key>
+            <string>userdefine.directives.keyword.vm</string>
+            <key>match</key>
+            <string>(?:#render|#renderwithfallback|#link|#imageresource|#file|#log)\b</string>
+            <key>name</key>
+            <string>keyword.directives.vm</string>
+        </dict>
+        <dict>
+            <key>include</key>
+            <string>source.vm</string>
+        </dict>
+    </array>
+    <key>scopeName</key>
+    <string>source.vm.polopoly</string>
+    <key>uuid</key>
+    <string>07ACD030-E324-11E2-A28F-0800200C9A66</string>
+</dict>
+</plist>
