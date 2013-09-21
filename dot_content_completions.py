@@ -10,36 +10,36 @@
 import sublime
 import sublime_plugin
 
-properties = [("id\tproperty", "id"),
-              ("major\tproperty", "major"),
-              ("inputtemplate\tproperty", "inputtemplate"),
-              ("name\tproperty", "name"),
-              ("securityparent\tproperty", "securityparent"),
-              ("component\tproperty", "component"),
-              ("ref\tproperty", "ref"),
-              ("list\tproperty", "list"),
-              ("publish\tproperty", "publish"),
-              ("file\tproperty", "file"),
-              ("template\tproperty", "template"),
-              ("action\tproperty", "action")]
+properties = [("id\tProperty", "id"),
+              ("major\tProperty", "major"),
+              ("inputtemplate\tProperty", "inputtemplate"),
+              ("name\tProperty", "name"),
+              ("securityparent\tProperty", "securityparent"),
+              ("component\tProperty", "component"),
+              ("ref\tProperty", "ref"),
+              ("list\tProperty", "list"),
+              ("publish\tProperty", "publish"),
+              ("file\tProperty", "file"),
+              ("template\tProperty", "template"),
+              ("action\tProperty", "action")]
 
-majors = [("majorconfig\tmajor","majorconfig"),
-          ("article\tmajor","article"),
-          ("department\tmajor","department"),
-          ("content\tmajor","content"),
-          ("layoutelement\tmajor","layoutelement"),
-          ("workflowtype\tmajor","workflowtype"),
-          ("workflow\tmajor","workflow"),
-          ("referencemetadata\tmajor","referencemetadata"),
-          ("inputtemplate\tmajor","inputtemplate"),
-          ("outputtemplate\tmajor","outputtemplate"),
-          ("appconfig\tmajor","appconfig"),
-          ("userdata\tmajor","userdata"),
-          ("community\tmajor","community")]
+majors = [("majorconfig\tMajor","majorconfig"),
+          ("article\tMajor","article"),
+          ("department\tMajor","department"),
+          ("content\tMajor","content"),
+          ("layoutelement\tMajor","layoutelement"),
+          ("workflowtype\tMajor","workflowtype"),
+          ("workflow\tMajor","workflow"),
+          ("referencemetadata\tMajor","referencemetadata"),
+          ("inputtemplate\tMajor","inputtemplate"),
+          ("outputtemplate\tMajor","outputtemplate"),
+          ("appconfig\tMajor","appconfig"),
+          ("userdata\tMajor","userdata"),
+          ("community\tMajor","community")]
 
-actions = [("approve\tworkflow action","approve"),
-           ("remove\tworkflow action","remove"),
-           ("draft\tworkflow action","draft")]
+actions = [("approve\tWorkflow action","approve"),
+           ("remove\tWorkflow action","remove"),
+           ("draft\tWorkflow action","draft")]
 
 def on_properties_completions(l):
     if(l == 'id:'): 
