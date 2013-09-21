@@ -120,7 +120,7 @@ def all_fields_layouts():
 class pFieldsLayoutsCompletions(sublime_plugin.EventListener):
 
     def on_query_completions(self, view, prefix, locations):
-        if not view.match_selector(locations[0], "source.xml"):
+        if not view.match_selector(locations[0], "text.xml.polopoly"):
             return []
 
         pt = locations[0] - len(prefix) - 1
