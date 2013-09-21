@@ -6,6 +6,8 @@ Disclaimer
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;  
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 
+Polopoly is a registered trademark of Polopoly AB (publ)  
+
 Feature
 -------
 This package include:
