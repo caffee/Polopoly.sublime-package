@@ -25,7 +25,7 @@ Install package to:
 Usage
 -----
 * __Polopoly Velocity directives auto-completion:__ <kbd>ctrl + spacebar</kbd> or <kbd>#</kbd>  
-* __Polopoly p.fields and p.layouts auto-completion:__ <kbd>.</kbd>>  
+* __Polopoly p.fields and p.layouts auto-completion:__ <kbd>.</kbd>  
 * __Polopoly .content auto-completion:__ <kbd>ctrl + spacebar</kbd>  
 
 
