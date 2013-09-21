@@ -6,8 +6,10 @@
   All title and rights in and to this software and any copies thereof
   are the sole property of Polopoly AB (publ).
   Polopoly is a registered trademark of Polopoly AB (publ).
-*#]]></content>
+*#
+
+]]></content>
     <tabTrigger>license</tabTrigger>
-    <scope>source.vm</scope>
-    <description>public license</description>
+    <scope>source.vm.polopoly</scope>
+    <description>Polopoly(publ)</description>
 </snippet>

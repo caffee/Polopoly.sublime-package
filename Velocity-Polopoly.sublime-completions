@@ -1,0 +1,20 @@
+{
+    "scope": "source.vm.polopoly - polopoly.directives.keyword.vm",
+
+    "completions":
+    [
+        // #file
+        { "trigger": "file\tp.Directive", "contents": "#file({\"filename\": \\$${1:path}, \"contentId\": \\$${2:content.contentId}, \"\":\"\"})" },
+        // #render
+        { "trigger": "render(outputTemplate)\tp.Directive", "contents": "#render({\"outputTemplate\": \"${1:template}.ot\", \"\":\"\"})" },
+        { "trigger": "render(contentId)\tp.Directive",      "contents": "#render({\"contentId\": \\$${1:contentId}, ${2:\"params\": \\{\"mode\": \"link\", \"\":\"\"\\}, } \"\":\"\"})" },
+        { "trigger": "render(content)\tp.Directive",        "contents": "#render({\"content\": \\$${1:content}, ${2:\"params\":\\{\"view\":\"article\", \"\":\"\"\\}, } \"\":\"\" })" },
+        // #link
+        { "trigger": "link(path)\tp.Directive",           "contents": "#link({\"path\": \\$${1:parentIds}, 'htmlEncodeLink': 'true', \"\":\"\"})" },
+        { "trigger": "link(contentId)\tp.Directive",      "contents": "#link({\"contentId\": \\$${1:parentIds}, 'htmlEncodeLink': 'true', \"\":\"\"})" },
+        { "trigger": "link(path contentId)\tp.Directive", "contents": "#link({\"path\": \\$${1:path}, \"contentId\": \\$${2:contentId}, 'htmlEncodeLink': 'true', \"\":\"\"})" },
+        { "trigger": "link(complex)\tp.Directive",        "contents": "#link({\"path\": \\$${1:path},\n\t\t\"contentId\": \\$${2:contentId},\n\t\t'htmlEncodeLink': 'true',\n\t\t${3:\"requestAttribs\": \\{\"localLinksEnabled\": \"false\"\\},}\n\t\t${4:\"contentParams\": \\{\\$${5:contentId} : \\{\"category\":\\$${6:categoryId}, \"dimension\":\\$${7:dimensionId}, \"\":\"\"\\}, \"\":\"\" \\},}\n\t\t\"\":\"\"})" },
+        // #imageresource
+        { "trigger": "imageresource\tp.Directive", "contents": "#imageresource({\"contentId\": \\$${1:contentId},\n\t\t\t\t\"derivative\": \"${2:landscape_490}\",\n\t\t\t\t\"alt\": ${3:\"\"},\n\t\t\t\t\"\":\"\"})" }
+    ]
+}

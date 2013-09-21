@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[#render({"content": ${1:\$content}, ${2:"params":\{"view":"article", "":""\}, }"":"" })]]></content>
-    <tabTrigger>render</tabTrigger>
-    <scope>source.vm</scope>
-    <description>#render(content)</description>
-</snippet>

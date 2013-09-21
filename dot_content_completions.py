@@ -1,4 +1,14 @@
-import sublime, sublime_plugin
+# -*- coding: utf8 -*-
+#
+# (c) Polopoly AB (publ).
+# This software is protected by copyright law and international copyright
+# treaties as well as other intellectual property laws and treaties.
+# All title and rights in and to this software and any copies thereof
+# are the sole property of Polopoly AB (publ).
+# Polopoly is a registered trademark of Polopoly AB (publ).
+
+import sublime
+import sublime_plugin
 
 properties = [("id\tproperty", "id"),
               ("major\tproperty", "major"),
@@ -32,32 +42,32 @@ actions = [("approve\tworkflow action","approve"),
            ("draft\tworkflow action","draft")]
 
 def on_properties_completions(l):
-  if(l == 'id:'): 
-    return False
-  elif(l == "major:"): 
-    return False
-  elif(l == "inputtemplate:"): 
-    return False
-  elif(l == "name:"): 
-    return False
-  elif(l == "securityparent:"): 
-    return False
-  elif(l == "component:"): 
-    return False
-  elif(l == "ref:"): 
-    return False
-  elif(l == "list:"): 
-    return False
-  elif(l == "publish:"): 
-    return False
-  elif(l == "file:"): 
-    return False
-  elif(l == "template:"): 
-    return False
-  elif(l == "action:"): 
-    return False
-  else:
-    return True
+    if(l == 'id:'): 
+        return False
+    elif(l == "major:"): 
+        return False
+    elif(l == "inputtemplate:"): 
+        return False
+    elif(l == "name:"): 
+        return False
+    elif(l == "securityparent:"): 
+        return False
+    elif(l == "component:"): 
+        return False
+    elif(l == "ref:"): 
+        return False
+    elif(l == "list:"): 
+        return False
+    elif(l == "publish:"): 
+        return False
+    elif(l == "file:"): 
+        return False
+    elif(l == "template:"): 
+        return False
+    elif(l == "action:"): 
+        return False
+    else:
+        return True
 
 class dotContentCompletions(sublime_plugin.EventListener):
     properties.sort()

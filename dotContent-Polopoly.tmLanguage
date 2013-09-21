@@ -7,7 +7,7 @@
      <string>content</string>
   </array>
   <key>name</key>
-  <string>.content</string>
+  <string>.content (Polopoly)</string>
   <key>patterns</key>
   <array>
     <!-- Property id,securityparent,inputtemplate,name constant.other.content-->

@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[#file({"filename": \$${1:path}, "contentId": \$${2:content.contentId}, "":""})]]></content>
-    <tabTrigger>file</tabTrigger>
-    <scope>source.vm</scope>
-    <description>#file</description>
-</snippet>

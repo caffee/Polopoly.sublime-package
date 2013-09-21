@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[#render({"outputTemplate": "${1}.ot", "":""})]]></content>
-    <tabTrigger>render</tabTrigger>
-    <scope>source.vm</scope>
-    <description>#render(outputTemplate)</description>
-</snippet>

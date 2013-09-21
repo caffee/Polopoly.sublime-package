@@ -13,7 +13,7 @@
         <!-- Polopoly directives -->
         <dict>
             <key>directives.polopoly</key>
-            <string>userdefine.directives.keyword.vm</string>
+            <string>polopoly.directives.keyword.vm</string>
             <key>match</key>
             <string>(?:#render|#renderwithfallback|#link|#imageresource|#file|#log)\b</string>
             <key>name</key>
