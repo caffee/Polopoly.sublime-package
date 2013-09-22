@@ -15,7 +15,7 @@ This package include:
 * __Velocity-Polopoly.tmLanguage__ - syntax highlighting and directives auto-completion  
 * __XML-Polopoly.tmLanguage__ - p.fields and p.layouts auto-completion  
 * __dotContent-Polopoly.tmLanguage__ - syntax highlighting and auto-completion  
- 
+
 Installation
 ------------
 Install package to:
@@ -30,6 +30,9 @@ Usage
 * __Polopoly p.fields and p.layouts auto-completion:__ <kbd>.</kbd>  
 * __Polopoly .content auto-completion:__ <kbd>ctrl + spacebar</kbd>  
 
+__Note__  
+Polopoly Velocity depends on [__Velocity.sublime-package__](https://github.com/caffee/Velocity.sublime-package)
+for syntax highlighting and directives auto-completion 
 
 LICENSE
 -------
